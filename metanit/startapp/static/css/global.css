@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    background: rgb(202, 202, 202);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
+
+a:has(.nav-item) {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+body{
+    padding: 20px;
+}

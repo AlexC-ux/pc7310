@@ -1,0 +1,14 @@
+table.maintable td {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+table.maintable thead td {
+    background: rgb(235, 235, 235);
+}
+
+table.maintable tbody>tr:nth-child(2n) {
+    background: rgb(245, 255, 231);
+}
